@@ -1,0 +1,122 @@
+.balance-child1 {
+  width: 310px;
+  height: 212px;
+  position: relative;
+  box-shadow: 0 20px 100px rgba(85, 85, 85, 0.05);
+  border-radius: var(--br-mini);
+  border: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  display: none;
+}
+.savings-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-whitesmoke);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.savings-amount {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  display: inline-block;
+  min-width: 12px;
+  z-index: 2;
+}
+.savings-info {
+  width: 44px;
+  height: 44px;
+  position: relative;
+}
+.empty-savings-label,
+.savings-3 {
+  position: relative;
+  display: inline-block;
+  min-width: 70px;
+  z-index: 1;
+}
+.empty-savings-label {
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray);
+  min-width: 121px;
+  white-space: nowrap;
+}
+.savings-3-parent,
+.savings-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.savings-3-parent {
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-base);
+  color: var(--color-gray-100);
+}
+.savings-card {
+  gap: var(--gap-xl);
+}
+.savings-graph-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gainsboro);
+  width: 100%;
+  height: 100%;
+  display: none;
+  z-index: 1;
+}
+.savings-graph,
+.savings-graph-item {
+  height: 10px;
+  border-radius: var(--br-21xl);
+}
+.savings-graph-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-indigo-200);
+  width: 121px;
+  z-index: 2;
+}
+.savings-graph {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  z-index: 1;
+}
+.balance4 {
+  flex: 1;
+  box-shadow: 0 20px 100px rgba(85, 85, 85, 0.05);
+  border-radius: var(--br-mini);
+  border: 1px solid var(--color-gainsboro);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg) var(--padding-lgi);
+  gap: var(--gap-6xl);
+  flex-shrink: 0;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-indigo-100);
+  font-family: var(--font-manrope);
+}
+@media screen and (max-width: 800px) {
+  .empty-savings-label {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .savings-amount {
+    font-size: var(--font-size-base);
+  }
+  .empty-savings-label {
+    font-size: var(--font-size-lg);
+  }
+}

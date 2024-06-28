@@ -1,0 +1,371 @@
+.balance-child {
+  width: 223px;
+  height: 177px;
+  position: relative;
+  box-shadow: 0 20px 100px rgba(85, 85, 85, 0.05);
+  border-radius: var(--br-mini);
+  background: linear-gradient(65.44deg, #5b25b4, #a773ff);
+  display: none;
+}
+.balance-icons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-indigo-300);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.balance-labels-icon {
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  z-index: 2;
+}
+.balance-row {
+  width: 44px;
+  height: 44px;
+  position: relative;
+}
+.balance1 {
+  position: relative;
+  display: inline-block;
+  min-width: 59px;
+  z-index: 1;
+}
+.empty-balance-data {
+  position: relative;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  white-space: nowrap;
+  z-index: 1;
+}
+.balance-amounts {
+  flex-direction: column;
+  gap: var(--gap-3xs);
+}
+.balance,
+.balance-amounts,
+.balance-cards {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.balance {
+  flex: 1;
+  box-shadow: 0 20px 100px rgba(85, 85, 85, 0.05);
+  border-radius: var(--br-mini);
+  background: linear-gradient(65.44deg, #5b25b4, #a773ff);
+  flex-direction: column;
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  min-width: 167px;
+}
+.balance-cards {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-11xl);
+}
+.graph-child {
+  width: 730px;
+  height: 405px;
+  position: relative;
+  box-shadow: 0 20px 100px rgba(85, 85, 85, 0.05);
+  border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.graph-values,
+.graph-values1,
+.overview {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.overview {
+  text-decoration: none;
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  color: var(--color-darkslategray);
+  min-width: 82px;
+}
+.graph-values,
+.graph-values1 {
+  font-weight: 500;
+  min-width: 30px;
+}
+.graph-values2,
+.graph-values3,
+.graph-values4,
+.graph-values5,
+.graph-values6 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 24px;
+  z-index: 1;
+}
+.graph-values3,
+.graph-values4,
+.graph-values5,
+.graph-values6 {
+  min-width: 25px;
+}
+.graph-values5,
+.graph-values6 {
+  min-width: 24px;
+}
+.graph-values6 {
+  min-width: 17px;
+}
+.graph-data {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.rectangle-div {
+  height: 44px;
+  width: 104px;
+  position: relative;
+  box-shadow: 0 20px 100px rgba(85, 85, 85, 0.05);
+  border-radius: var(--br-20xl);
+  background: linear-gradient(65.44deg, #5b25b4, #a773ff);
+  display: none;
+}
+.day-label-placeholder {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  font-family: var(--font-manrope);
+  color: var(--color-white);
+  text-align: right;
+  display: inline-block;
+  min-width: 64px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.rectangle-container {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xs) var(--padding-xl);
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 345px;
+  box-shadow: 0 20px 100px rgba(85, 85, 85, 0.05);
+  border-radius: var(--br-20xl);
+  background: linear-gradient(65.44deg, #5b25b4, #a773ff);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.axis-icon,
+.indicator-points-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.indicator-points-icon {
+  border-radius: var(--br-41xl);
+  z-index: 3;
+}
+.indicator-icon,
+.indicator-points-icon1 {
+  z-index: 4;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+}
+.indicator-points-icon1 {
+  top: 120px;
+  border-radius: var(--br-41xl);
+  width: 603px;
+  height: 116px;
+}
+.indicator-icon {
+  width: 100%;
+  height: 100%;
+  top: 5px;
+  transform: scale(1.833);
+}
+.wrapper-indicator {
+  position: absolute;
+  top: 41px;
+  left: 366px;
+  width: 36px;
+  height: 36px;
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.graph-axis-icon,
+.graph-indicators {
+  position: absolute;
+  top: 9px;
+  left: 13px;
+  width: 603px;
+  height: 236px;
+}
+.graph-axis-icon {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.graph-labels {
+  height: 272px;
+  flex: 1;
+  position: relative;
+  min-width: 400px;
+  max-width: 100%;
+}
+.graph-content {
+  width: 666px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: right;
+}
+.fri,
+.mon,
+.sat,
+.sun,
+.thu,
+.tue,
+.wed {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 27px;
+  z-index: 1;
+}
+.fri,
+.sat,
+.sun,
+.thu,
+.tue,
+.wed {
+  min-width: 23px;
+}
+.fri,
+.sat,
+.sun,
+.thu,
+.wed {
+  min-width: 28px;
+}
+.fri,
+.sat,
+.sun,
+.thu {
+  min-width: 24px;
+}
+.fri,
+.sat,
+.sun {
+  min-width: 15px;
+}
+.sat,
+.sun {
+  min-width: 21px;
+}
+.sun {
+  min-width: 24px;
+}
+.graph,
+.money-cards,
+.weekday-labels,
+.weekdays {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.weekday-labels {
+  width: 612px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.graph,
+.money-cards,
+.weekdays {
+  align-self: stretch;
+}
+.weekdays {
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-lg);
+  box-sizing: border-box;
+}
+.graph,
+.money-cards {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.graph {
+  box-shadow: 0 20px 100px rgba(85, 85, 85, 0.05);
+  border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  padding: var(--padding-6xl);
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+  font-size: var(--font-size-smi);
+  color: var(--color-gray-100);
+}
+.money-cards {
+  gap: var(--gap-11xl);
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-silver-100);
+  font-family: var(--font-manrope);
+}
+@media screen and (max-width: 800px) {
+  .empty-balance-data {
+    font-size: var(--font-size-5xl);
+  }
+  .balance-cards {
+    flex-wrap: wrap;
+  }
+  .graph-labels {
+    min-width: 100%;
+  }
+  .graph-content {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .empty-balance-data {
+    font-size: var(--font-size-lg);
+  }
+  .fri {
+    width: 100%;
+    height: 15px;
+  }
+  .weekday-labels {
+    flex-wrap: wrap;
+  }
+  .graph {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

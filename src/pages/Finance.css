@@ -1,0 +1,218 @@
+.logout {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 61px;
+  z-index: 2;
+}
+.logout-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 1;
+}
+.frame-icon {
+  position: absolute;
+  top: 173px;
+  left: 128px;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  z-index: 2;
+}
+.logout-icon-parent {
+  width: 316.9px;
+  height: 316.9px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -66.9px;
+  left: -88px;
+}
+.frame-parent,
+.logout-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.logout-parent {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 176px var(--padding-xl) 49px 87px;
+  position: relative;
+  margin-top: -250px;
+}
+.frame-parent {
+  height: 1024px;
+  width: 240px;
+  justify-content: flex-start;
+}
+.dashboard {
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+}
+.dashboard-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.frame-child {
+  height: 54px;
+  width: 400px;
+  position: relative;
+  box-shadow: 0 20px 100px rgba(85, 85, 85, 0.08);
+  border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.search-input-icon {
+  height: 26px;
+  width: 26px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 26px;
+  z-index: 1;
+}
+.find-expenses-history {
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  color: inherit;
+  z-index: 1;
+}
+.find-expenses-history-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.dashboard-header,
+.rectangle-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.rectangle-parent {
+  width: 400px;
+  box-shadow: 0 20px 100px rgba(85, 85, 85, 0.08);
+  border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  justify-content: flex-start;
+  padding: 14px 16px;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: #808994;
+}
+.dashboard-header {
+  align-self: stretch;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+.dashboard-content,
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.dashboard-content {
+  align-self: stretch;
+  height: 989px;
+  overflow-y: auto;
+  flex-shrink: 0;
+  padding: 0 0 935px;
+  gap: var(--gap-21xl);
+}
+.main-content {
+  width: 730px;
+  padding: var(--padding-16xl) 0 0;
+  font-size: 32px;
+  color: var(--color-darkslategray);
+}
+.balance-details {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-21xl);
+  margin-top: -127px;
+}
+.balance-details,
+.finance-1,
+.user-panel {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.user-panel {
+  height: 1024px;
+  width: 390px;
+  flex-direction: column;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.finance-1 {
+  position: relative;
+  border-radius: 32px;
+  background-color: #fafafa;
+  width: 100%;
+  overflow: hidden;
+  flex-direction: row;
+  gap: var(--gap-21xl);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: #d36363;
+  font-family: var(--font-manrope);
+}
+@media screen and (max-width: 1350px) {
+  .dashboard-content {
+    padding-bottom: 608px;
+    box-sizing: border-box;
+  }
+  .finance-1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .dashboard {
+    font-size: 26px;
+  }
+  .dashboard-header {
+    flex-wrap: wrap;
+  }
+  .dashboard-content {
+    height: auto;
+    gap: var(--gap-xl);
+    padding-bottom: 395px;
+    box-sizing: border-box;
+  }
+  .finance-1 {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .dashboard {
+    font-size: var(--font-size-lgi);
+  }
+  .dashboard-content {
+    padding-bottom: 257px;
+    box-sizing: border-box;
+  }
+}

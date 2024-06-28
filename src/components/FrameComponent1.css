@@ -1,0 +1,239 @@
+.dashboard1,
+.murtani {
+  text-decoration: none;
+  position: absolute;
+  margin: 0 !important;
+  display: inline-block;
+  z-index: 2;
+}
+.murtani {
+  top: 44.6px;
+  right: 58.1px;
+  font-size: var(--font-size-3xl-9);
+  font-weight: 700;
+  color: inherit;
+  min-width: 88px;
+}
+.dashboard1 {
+  top: 147px;
+  right: 59px;
+  font-weight: 600;
+  color: var(--color-indigo-200);
+  min-width: 94px;
+}
+.vector-icon {
+  position: absolute;
+  top: -73px;
+  left: -80px;
+  width: 316.9px;
+  height: 316.9px;
+  object-fit: contain;
+  z-index: 1;
+}
+.navigation-item-icon {
+  position: absolute;
+  top: 221px;
+  left: 40px;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  z-index: 2;
+}
+.navigation-item-icon1,
+.navigation-item-icon2,
+.navigation-item-icon3 {
+  position: absolute;
+  top: 61.3px;
+  left: 43.4px;
+  width: 32.5px;
+  height: 15.4px;
+  z-index: 2;
+}
+.navigation-item-icon2,
+.navigation-item-icon3 {
+  top: 44px;
+}
+.navigation-item-icon3 {
+  top: 144px;
+  left: 40px;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+}
+.navigation {
+  height: 253px;
+  width: 236.9px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: 0;
+}
+.frame-item {
+  width: 240px;
+  height: 1024px;
+  position: relative;
+  box-shadow: 0 0 60px rgba(85, 85, 85, 0.05);
+  background-color: var(--color-white);
+  display: none;
+}
+.frame-inner {
+  height: 32px;
+  width: 6px;
+  position: relative;
+  z-index: 2;
+}
+.vector-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs);
+}
+.savings {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 67px;
+  z-index: 2;
+}
+.savings-label {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-26xl) var(--padding-9xs);
+}
+.willkommen-bei-der-seite-von-a {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.saved {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 52px;
+  z-index: 1;
+}
+.profile-settings,
+.settings-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.settings-items {
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-mini);
+}
+.frame-icon1,
+.profile {
+  position: relative;
+  z-index: 1;
+}
+.frame-icon1 {
+  height: 32px;
+  width: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.profile {
+  text-decoration: none;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 55px;
+}
+.profile-wrapper,
+.settings-items1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.settings-items1 {
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-mini);
+}
+.frame-icon2,
+.settings {
+  position: relative;
+  z-index: 1;
+}
+.frame-icon2 {
+  height: 32px;
+  width: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.settings {
+  text-decoration: none;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 72px;
+}
+.settings-wrapper {
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+}
+.murtani-parent,
+.rectangle-group,
+.settings-items2,
+.settings-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.settings-items2 {
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-mini);
+}
+.murtani-parent,
+.rectangle-group {
+  align-self: stretch;
+  flex: 1;
+}
+.rectangle-group {
+  box-shadow: 0 0 60px rgba(85, 85, 85, 0.05);
+  background-color: var(--color-white);
+  flex-direction: column;
+  padding: var(--padding-125xl) 0 var(--padding-125xl) var(--padding-21xl);
+  gap: var(--gap-26xl);
+  color: var(--color-lightslategray-100);
+}
+.murtani-parent {
+  flex-direction: row;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray);
+  font-family: var(--font-manrope);
+}
+@media screen and (max-width: 800px) {
+  .rectangle-group {
+    padding-top: var(--padding-75xl);
+    padding-bottom: var(--padding-75xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .murtani {
+    font-size: var(--font-size-lg);
+  }
+}
